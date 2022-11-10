@@ -1,0 +1,89 @@
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+}
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #5f5e5e;
+    background-image: url(img/triangles_pattern.jpg);
+}
+.header {
+    padding: 20px;
+}
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.header a {
+    text-decoration: none;
+    color: salmon;
+    padding: 3px;
+}
+.header a:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+.hero {
+    height: 250px;
+    background-image: url(img/gambar1.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+}
+.content {
+    padding: 20px;
+}
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px
+}
+.content .penulis a {
+    color: salmon;
+}
+.footer {
+    padding: 20px;
+}
+.footer .copy {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.teyvat {
+    height: 500px;
+    background-image: url(img/gambar2.jpg);
+    background-size:    100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+.teyvat2 {
+    height: 500px;
+    background-image: url(img/gambar3.jpg);
+    background-size:    100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+}
+p {
+    margin-top: 5px;
+}
+.teyvat3 {
+    height: 500px;
+    background-image: url(img/gambar4.jpg);
+    background-size:    100%;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    position: relative;
+}

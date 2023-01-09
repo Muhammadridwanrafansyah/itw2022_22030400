@@ -1,32 +1,273 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Murira Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
 
-  <!-- Font Awesome cdn Link-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="Index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Keyboard
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Razer</a></li>
+                  <li><a class="dropdown-item" href="#">Redragon</a></li>
+                  <li><a class="dropdown-item" href="#">Logitech</a></li>
+                  <li><a class="dropdown-item" href="#">Rexus</a></li>
+                  <li><a class="dropdown-item" href="#">DA Gaming</a></li>
+                  <li><a class="dropdown-item" href="#">Lenovo</a></li>
+                  <li><a class="dropdown-item" href="#">Sades</a></li>
+                  <li><a class="dropdown-item" href="#">Ducky one</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  Mouse
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Logitech</a></li>
+                  <li><a class="dropdown-item" href="#">Rexus</a></li>
+                  <li><a class="dropdown-item" href="#">Razer</a></li>
+                  <li><a class="dropdown-item" href="#">Votre</a></li>
+                  <li><a class="dropdown-item" href="#">Sades</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                 Headset & Audio
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Logitech</a></li>
+                  <li><a class="dropdown-item" href="#">Rexus</a></li>
+                  <li><a class="dropdown-item" href="#">Razer</a></li>
+                  <li><a class="dropdown-item" href="#">Sades</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex center" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+   <!-- Content start-->
+   <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../with framework/img/Headset.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../with framework/img/Mouse.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="../with framework/img/Mechanical_keyboard.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- shop start -->
+  <!-- Mouse Shop Start -->
+    <h2 class="text-center">Mouse</h2>
+    <hr>
+  <div class="album py-5 bg-light">
+    <div class="container">
 
-  <!-- Custom css link -->
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/Razer-Viper-Ultimate-Wireless.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Razer Viper Ultimate </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 1.189.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/rexus-xierra-x15.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Xierra</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 559.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/Sades-akimbo.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Sades Akimbo</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 559.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Mouse Shop Ends-->
+<!-- Keyboard Shop Starts-->
+
+  <h2 class="text-center">Keyboard</h2>
+    <hr>
+  <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/ducky-one-2-mini.png" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Ducky one 2 mini </p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 1.449.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/razer-blackwidow.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Razer Blackwidow</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 1.250.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="../with framework/img/redragon-kumara-k552-rgb.png" class="img-fluid" alt="...">
+            <div class="card-body">
+              <p class="card-text text-center">Redragon Kumara r552</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+                </div>
+                <small class="text-muted">Rp. 499.000</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Keyboard Shop Ends -->
+<!-- Headset Shop Ends -->
+
+<h2 class="text-center"> Headset </h2>
+<hr>
+<div class="album py-5 bg-light">
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="../with framework/img/Hyperx-cloud-revolver.png" class="img-fluid" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center"> HyperX Cloud Revolver </p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+            </div>
+            <small class="text-muted">Rp. 1.559.000</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="../with framework/img/razer-blackwidow.jpg" class="img-fluid" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Razer Blackwidow</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+            </div>
+            <small class="text-muted">Rp. 1.250.000</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="../with framework/img/redragon-kumara-k552-rgb.png" class="img-fluid" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center">Redragon Kumara r552</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="btn-group">
+              <button type="button" class="btn btn-sm btn-outline-secondary "><a href="/kuliah/Tubes/with framework/Logitech-g102.html" class="text-decoration-none text-body"> Details</a></button>
+            </div>
+            <small class="text-muted">Rp. 499.000</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- start footer -->
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
+      </div>
   
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-<!--   navbar section starts  -->
-
-<nav class="navbar">
-  <a href="home.html"><i class="fas fa-home"> <span>Home</span></i></a>
-  <a href="about.html"><i class="fas fa-user"> <span>Home</span></i></a>
-  <a href="portfolio.html"><i class="fas fa-briefcase"> <span>Home</span></i></a>
-  <a href="Blogs.html"><i class="fas fa-blog"> <span>Home</span></i></a>
-  <a href="Contact.html"><i class="fas fa-address-book"> <span>Home</span></i></a>
-</nav>
-
-<!--   navbar section ends -->
-
-</body>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </footer>
+  </div>
+  <!-- End Footer -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
 </html>
